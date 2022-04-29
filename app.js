@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault()
     const value = input.value;
     if(!value){
-        results.innerHTML = '<div class="error">Ingrese un término de búsqueda válido </div>'
+        results.innerHTML = '<div class="error">Ingrese un término de búsqueda válido XD </div>'
         return;
     }
 
