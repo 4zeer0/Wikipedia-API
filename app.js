@@ -21,6 +21,8 @@ const fetchPages = async(searchValue) =>{
     try {
         const response = await fetch(`${url}${searchValue}`)
         const data = await response.json();
+        
+        console.log(data)
         const results = data.query.search;
 
     
