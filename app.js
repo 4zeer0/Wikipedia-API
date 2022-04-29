@@ -24,11 +24,11 @@ const fetchPages = async(searchValue) =>{
         
         console.log("DATA:");
         console.log(data);
-        const results = data.query.search;
+        const result = data.query.search;
         console.log("RESULTS:");
-        console.log(results);
+        console.log(result);
         
-        if(results.length < 1){
+        if(result.length < 1){
             results.innerHTML = '<div class="error">No matching results. </div>'
 
         return;
